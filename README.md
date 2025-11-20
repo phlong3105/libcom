@@ -11,7 +11,7 @@
 [![PyPI](https://img.shields.io/pypi/v/libcom)](https://pypi.org/project/libcom)
 [![Downloads](https://static.pepy.tech/badge/libcom)](https://pepy.tech/project/libcom)
 [![Hits](https://hits.sh/github.com/bcmi/libcom.svg?label=views)](https://hits.sh/github.com/bcmi/libcom/)
-[![Static Badge](https://img.shields.io/badge/Online_Demo-Green)](https://bcmi.sjtu.edu.cn/home/niuli/demo_image_composition/)
+[![Static Badge](https://img.shields.io/badge/Online_Demo-Green)](http://libcom.ustcnewly.com/)
 [![Static Badge](https://img.shields.io/badge/Dataset&Code_Resources-green)](https://github.com/bcmi/Awesome-Object-Insertion)
 [![Static Badge](https://img.shields.io/badge/survey-arxiv%3A2106.14490-red)](https://arxiv.org/pdf/2106.14490.pdf)
 [![Static Badge](https://img.shields.io/github/stars/bcmi/libcom.svg?style=social)](https://github.com/bcmi/libcom/stargazers)
@@ -42,7 +42,7 @@ Welcome to follow WeChat public account ["Newly AIGCer"](https://www.ustcnewly.c
 - **PainterlyHarmonizationModel** [[PHDNet]](https://github.com/bcmi/PHDNet-Painterly-Image-Harmonization)  [[PHDiffusion]](https://github.com/bcmi/PHDiffusion-Painterly-Image-Harmonization) adjusts the foreground style to be compatible with the background given artistic background and photorealistic foreground.
 - **HarmonyScoreModel** [[BargainNet]](https://github.com/bcmi/BargainNet-Image-Harmonization) evaluates the harmony level between foreground and background in a composite image.
 - **InharmoniousLocalizationModel** [[MadisNet]](https://github.com/bcmi/MadisNet-Inharmonious-Region-Localization) localizes the inharmonious region in a synthetic image.
-- **FOSScoreModel** [[DiscoFOS]](https://github.com/bcmi/Foreground-Object-Search-Dataset-FOSD) evaluates the compatibility between foreground and background in a composite image in terms of geometry and semantics.
+- **FOSScoreModel** [[DiscoFOS]](https://github.com/bcmi/Foreground-Object-Search-Dataset-FOSD) evaluates the compatibility between foreground and background in a composite image in terms of geometry and semantics. Due to limited training data, the generalization ability of this model is poor. 
 - **ShadowGenerationModel** [[GPSDiffusion]](https://github.com/bcmi/GPSDiffusion-Object-Shadow-Generation) generates plausible shadow for the inserted object in a composite image. 
 - **ReflectionGenerationModel** generates plausible reflection for the inserted object in a composite image. 
 - **KontextBlendingHarmonizationModel** [[FluxKontext]](https://github.com/black-forest-labs/flux) is a generative image composition model which inserts foreground into the specified bounding box in the background. The pose and view of foreground stay unchanged. The "blending" mode does not adjust the foreground illumination, while the "harmonization" mode adjusts the foreground illumination to make the composite image harmonious. 
@@ -81,4 +81,6 @@ If you use our toolbox, please cite our survey paper using the following BibTeX 
   year={2021}
 }
 ```
+
+
 
