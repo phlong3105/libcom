@@ -18,6 +18,11 @@
 
 ---
 
+Welcome to scan the WeChat QR code to join the discussion group on image composition/compositing, object insertion/addition.
+<p align="center">
+<img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/8572a7c4-0f62-4a5f-bc06-9a1d9fcb14e3" />
+</p>
+
 ## Introduction
 **_libcom_ (the library of image composition) is an image composition toolbox.** The goal of [image composition](https://github.com/bcmi/Awesome-Image-Composition) ([object insertion](https://github.com/bcmi/Awesome-Object-Insertion)) is inserting one foreground into a background image to get a realistic composite image, by addressing the inconsistencies (appearance, geometry, and semantic inconsistency) between foreground and background. Generally speaking, image composition could be used to combine the visual elements from different images.
 <div align="center">
